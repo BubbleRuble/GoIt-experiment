@@ -1,0 +1,50 @@
+body{
+background-color: $bg-secondary;
+}
+
+.header-page{
+width: 1260px;
+height: 60px;
+justify-self: center;
+margin-top: 68px;
+}
+.header-nav{
+display: flex;
+justify-content: space-between;
+}
+.header-menu{
+display: flex;
+width: 484px;
+height: 60px;
+align-items: center;
+}
+.header-image{
+width: 91px;
+height: 9px;
+margin-left: 40px;
+color: $black-primary;
+text-decoration: none;
+
+}
+.header-image:nth-child(1){
+margin-left: 0;
+}
+
+.header-logo a{
+display: block;
+height: 60px;
+}
+
+button{
+width: 193px;
+height: 56px;
+padding: 0;
+margin: 0;
+background-color: $button-color;
+color: white;
+border-color: transparent;
+border-radius: 15px;
+}
+.header-button{
+align-content: flex-end;
+}

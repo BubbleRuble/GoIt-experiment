@@ -1,0 +1,65 @@
+// Перша Секція
+.contenta{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-top: 295px;
+}
+
+.content-title{
+margin-top: 91px;
+width: 384px;
+height: 103px;
+}
+.content-description{
+margin-top: 91px;
+width: 384px;
+height: 103px;
+}
+.content-image{
+margin-top: 23px;
+}
+.content-image:first-child{
+margin-top: 0;
+}
+.content-bgc{
+margin-top: 295px;
+margin-left: 204px;
+}
+
+// Друга Секція
+.contentb{
+            height: 800px;
+display: flex;
+margin-top: 295px;
+}
+.content-top{
+display: flex;
+margin-left: 168px;
+
+}
+.contentb-title{
+margin-bottom: 32px;
+}
+.content-background:last-child{
+margin-left: 65px;
+}
+
+.contentb-title{
+margin-top: 91px;
+width: 384px;
+height: 103px;
+}
+.simple{
+height: 182px;
+margin-left: 268px;
+}
+.content-frame{
+display: flex;
+justify-content: flex-start;
+height: 182px;
+}
+.contentb-button{
+margin-top: 92px;
+height: 56px;
+}
